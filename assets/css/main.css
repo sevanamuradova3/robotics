@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: transparent;
+  z-index: 2;
+  position: absolute;
+}
+header .navs {
+  justify-content: flex-end;
+}
+
+#improve {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(https://preview.colorlib.com/theme/robotics/img/banner-bg.jpg);
+}
+#improve .momdiv {
+  margin: 28px 0px;
+}
+#improve .textDiv {
+  color: white;
+  padding: 28px;
+}
+#improve .textDiv h1 {
+  font-size: 70px;
+}
+#improve .textDiv button {
+  border: none;
+  padding: 10px 20px;
+}
+#improve .imgDiv img {
+  max-width: 100%;
+}
+
+#network {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 28px;
+}
+#network .moms {
+  width: 100%;
+}
+#network .textDiv {
+  padding: 28px;
+}
+#network .textDiv h1 {
+  margin: 20px 0px;
+}
+#network .textDiv button {
+  border: none;
+  background-color: #CD97FF;
+  padding: 10px 20px;
+}
+#network .textDiv button:hover {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid black;
+}
+#network .imgDiv img {
+  max-width: 100%;
+}
+
+#change {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 28px;
+}
+#change .moms {
+  width: 100%;
+}
+#change .textDiv {
+  padding: 28px;
+}
+#change .textDiv h1 {
+  margin: 20px 0px;
+}
+#change .textDiv button {
+  border: none;
+  background-color: #CD97FF;
+  padding: 10px 20px;
+}
+#change .textDiv button:hover {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid black;
+}
+#change .imgDiv img {
+  max-width: 100%;
+}
+
+#about .container .text-about .headTxt {
+  font-size: 2rem;
+  font-weight: 500;
+}
+#about .container #products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+  width: 100%;
+}
+#about .container #products .box {
+  width: 250px;
+  margin: 28px 0px;
+}
+#about .container #products .box img {
+  width: 100%;
+}
+#about .container #products .box button {
+  color: #fff;
+  background-color: green;
+  transition: 1s;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid green;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#about .container #products .box button i {
+  margin-top: 0.5rem;
+  margin: 0 0.3rem;
+}
+#about .container #products .box button:hover {
+  background-color: #fff;
+  color: green;
+}
+#about .container .button #loadMore {
+  color: #fff;
+  transition: 1s;
+  background-color: black;
+  padding: 10px;
+  border-radius: 20px;
+}
+#about .container .button #loadMore:hover {
+  background-color: #fff;
+  color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(180, 84, 180);
+}
+header .navs {
+  justify-content: flex-end;
+}
+header form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#basketProduct {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#products {
+  margin-top: 28px;
+  padding-top: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 300px;
+  height: 400px;
+  margin: 20px;
+  text-align: center;
+}
+.box img {
+  max-width: 100%;
+}
+.box button {
+  border: none;
+  border-radius: 30px;
+  padding: 20px;
+  background-color: rgb(185, 168, 168);
+}
+
+#formSec .container {
+  display: flex;
+  justify-content: center;
+}
+#formSec .container form {
+  width: 50%;
+}
+#formSec .container form p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+#formDisplay .container #display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+#formDisplay .container #display .box {
+  width: 250px;
+  height: 200px;
+  padding: 25px;
+  box-shadow: 0 1px 10px rgb(0, 0, 0);
+}
+#formDisplay .container #display .box span {
+  font-weight: 500;
+  font-size: 18px;
+}
+#formDisplay .container #display .box button {
+  color: #fff;
+  background-color: red;
+  transition: 1s;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid red;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#formDisplay .container #display .box button:hover {
+  background-color: #fff;
+  color: red;
+}
